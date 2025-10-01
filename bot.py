@@ -113,7 +113,7 @@ def get_gpt_response(user_message):
         }
         
         data = {
-            "model": "gpt-3.5-turbo",
+            "model": "gpt-4.1-mini",
             "messages": [
                 {"role": "system", "content": MELLSTROY_PROMPT},
                 {"role": "user", "content": user_message}
@@ -245,3 +245,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
